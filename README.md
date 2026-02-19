@@ -1,9 +1,15 @@
 # Lab-ecom-Vic
-/
-  index.html      → escaparate
-  product.html    → ficha
-  cart.html       → carrito
-  checkout.html   → caja
-  data/
-    products.json 
-
+{
+  "_IMPORTANT_NOTE": "EDITA SOLO LOS PRODUCTOS",
+  "products": [
+    {
+      "sku": "DEMO-001",
+      "name": "Producto demo 1",
+      "category": "Demo",
+      "price": 29,
+      "image": "https://via.placeholder.com/300",
+      "description": "Descripción demo",
+      "stock": 12
+    }
+  ]
+}
